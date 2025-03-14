@@ -12,7 +12,10 @@ return {
   { import = "astrocommunity.pack.go" },
   { import = "astrocommunity.pack.json" },
   { import = "astrocommunity.pack.rust" },
+  { import = "astrocommunity.pack.json" },
   { import = "astrocommunity.git.blame-nvim" },
+  { import = "astrocommunity.git.diffview-nvim" },
+  { import = "astrocommunity.git.git-blame-nvim" },
   { import = "astrocommunity.docker.lazydocker" },
   { import = "astrocommunity.terminal-integration.toggleterm-manager-nvim" },
   { import = "astrocommunity.utility.hover-nvim" },
@@ -20,6 +23,8 @@ return {
   { import = "astrocommunity.scrolling.mini-animate" },
   { import = "astrocommunity.bars-and-lines.lualine-nvim" },
   { import = "astrocommunity.bars-and-lines.dropbar-nvim" },
+  { import = "astrocommunity.split-and-window.mini-map" },
   { import = "astrocommunity.code-runner.toggletasks-nvim" },
+  { import = "astrocommunity.workflow.precognition-nvim" }
   -- import/override with your plugins folder
 }
